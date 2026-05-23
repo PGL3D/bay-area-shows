@@ -24,7 +24,9 @@ export default function Home() {
             <p className="text-gray-500 mt-1">
               {event.date}
             </p>
-            
+            <p className="text-gray-500 mt-1">
+              {event.ticketType} — ${event.price}
+            </p>
             <a 
               href={event.ticketUrl}
               target="_blank"
