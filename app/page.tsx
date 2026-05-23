@@ -1,23 +1,4 @@
-const events = [
-  {
-    artist: "Fred again..",
-    venue: "Bill Graham Civic Auditorium",
-    date: "June 14, 2026",
-    ticketUrl: "https://www.axs.com",
-  },
-  {
-    artist: "Khruangbin",
-    venue: "The Greek Theatre",
-    date: "July 2, 2026",
-    ticketUrl: "https://www.ticketmaster.com",
-  },
-  {
-    artist: "Four Tet",
-    venue: "Fox Theater Oakland",
-    date: "August 8, 2026",
-    ticketUrl: "https://www.tixr.com",
-  },
-];
+import { events } from './data';
 
 export default function Home() {
   return (
